@@ -1,0 +1,1 @@
+const modulo = angular.module('myProject',[]);

@@ -1,0 +1,22 @@
+
+.fundo-cor{
+    background-image:url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bloco-principal{
+    display: flex;
+    justify-content: center;
+}
+.conteudo{
+    background: white;
+    border: 1px solid white;
+    border-radius:3px;
+    box-shadow: black;
+    width: 50%;
+    height: 50%;
+    margin-top: 10%;
+    display: flex;
+}
