@@ -1,22 +1,40 @@
-
-.fundo-cor{
-    background-image:url('../images/background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
-.bloco-principal{
+.welcome-div{
+    background-color:#56AA98;
+    color:#fff;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: bold;
+    height: auto;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
-.conteudo{
-    background: white;
-    border: 1px solid white;
-    border-radius:3px;
-    box-shadow: black;
-    width: 50%;
-    height: 50%;
+.title-page{
+    font-size: 30pt;
+}
+
+.btn-primary{
+    background-color: #56AA98!important;
+    color: #fff!important;
+    border:1px solid #56AA98;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    border:1px solid #56AA98;
+}
+.form-date{
+    margin-top: 20%;
+}
+.form-date-register{
     margin-top: 10%;
+}
+.btn-first{
+    margin-top: 5%;
+}
+.div-or{
+    justify-content: center;
     display: flex;
+}
+.link-singup a{
+    color:dimgray;
 }

@@ -17,17 +17,25 @@ include "header.php";
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6 welcome-div">
-                <div class="welcome">
-                    <p class="title-page">Welcome Back!</p>
-                    <p>Connect with us please login with your personal info ( :</p>
-                </div>
-            </div>
-            <div class="col-md-6 form-date">
+            <div class="col-md-6 form-date-register">
                 <form>
+                    <div class="row">
+                        <div class="col-md-12 title-page">
+                            Write your data here (:
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label >Your Name</label>
+                        <input type="text" class="form-control">
+                    </div>
+
                     <div class="form-group">
                         <label for="exampleInputEmail1">E-mail address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Confirm your E-mail address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Password</label>
@@ -36,19 +44,27 @@ include "header.php";
                     <p class="div-or">or</p>
                     <div class="row">
                         <div class="col-md-12">
-                            <button type="button" class="btn btn-dark">Sign in with Facebook</button>
-                            <button type="button" class="btn btn-dark">Sign in with Gmail</button>
+                            <button type="button" class="btn btn-dark">Sign up with Facebook</button>
+                            <button type="button" class="btn btn-dark">Sign up with Gmail</button>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-first">SIGN IN</button>
+                    <button type="submit" class="btn btn-primary btn-first">SIGN UP</button>
                     <br>
                     <div class="row">
                         <div class="col-md-12 link-singup">
-                            <a href="">You not have account? Sign up here!</a>
+                            <a href="">You already has a login? Click here!</a>
                         </div>
                     </div>
                 </form>
             </div>
+            <div class="col-md-6 welcome-div">
+                <div class="welcome">
+                    <p class="title-page">Welcome our plataform!</p>
+                    <p>Register here for access for has access ( :</p>
+                </div>
+            </div>
         </div>
     </div>
-</body>
+
+</div>
+
